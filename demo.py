@@ -377,7 +377,7 @@ if __name__ == '__main__':
     parser.add_argument('--staf_dir', type=str, default='/home/mkocabas/developments/openposetrack',
                         help='path to directory STAF pose tracking method installed.')
 
-    parser.add_argument('--vibe_batch_size', type=int, default=450,
+    parser.add_argument('--vibe_batch_size', type=int, default=350,
                         help='batch size of VIBE')
 
     parser.add_argument('--display', action='store_true',
